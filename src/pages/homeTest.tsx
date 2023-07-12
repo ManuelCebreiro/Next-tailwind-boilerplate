@@ -1,13 +1,14 @@
-import { Layout } from '@/components/layouts/Layout'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-export default function Home() {
+export default function HomeTest() {
   const { t } = useTranslation()
+
   return (
-    <Layout>
+    <main className={`flex min-h-screen flex-col items-center justify-between p-24`}>
       <h1>{t('common:TodoTest', 'Haciendo pruebas')}</h1>
-    </Layout>
+      <h2>Esto es una prueba</h2>
+    </main>
   )
 }
 
