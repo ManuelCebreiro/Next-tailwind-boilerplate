@@ -7,7 +7,6 @@ export default function HomeTest() {
   return (
     <main className={`flex min-h-screen flex-col items-center justify-between p-24`}>
       <h1>{t('common:TodoTest', 'Haciendo pruebas')}</h1>
-      <h2>Esto es una prueba</h2>
     </main>
   )
 }
